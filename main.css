@@ -54,6 +54,7 @@ body {
   overflow: hidden;
   background-color: #333;
   font-family: Arial;
+  text-align: center;
 }
 
 /* Links inside the navbar */
@@ -89,6 +90,8 @@ body {
   background-color: gray;
   color: black
 }
+
+
 
 
 
@@ -164,3 +167,4 @@ img {
         filter: grayscale(0%);
     }
 }
+
