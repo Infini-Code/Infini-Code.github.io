@@ -31,6 +31,17 @@
             This section of the website is under construction!
         </div>
         
+        <div id="container" onselectstart="return false" button onclick="myFunction()">
+            <a class="dark-mode-button"></a>
+            <a class="dark-mode-button-text">DarkMode</a>
+        </div>
+        <script>
+            function myFunction() {
+                var element = document.body;
+                element.classList.toggle("dark-mode");
+            }
+        </script>
+        
     </body>
 </html>
 

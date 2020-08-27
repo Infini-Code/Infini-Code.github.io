@@ -50,6 +50,17 @@
         <center><p>Then if you did it correctly your browser should open with your new website!</p></center>
         <img src="img/newwebsite.png">
 
+        <div id="container" onselectstart="return false" button onclick="myFunction()">
+            <a class="dark-mode-button"></a>
+            <a class="dark-mode-button-text">DarkMode</a>
+        </div>
+        <script>
+            function myFunction() {
+                var element = document.body;
+                element.classList.toggle("dark-mode");
+            }
+        </script>
+
         <script type="text/javascript" src="scripts/codecolor.js"></script>
         
     </body>
